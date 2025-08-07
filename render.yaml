@@ -1,0 +1,1 @@
+build:\n  command: npm install && npm rebuild canvas
