@@ -1,5 +1,5 @@
 const express = require('express');
-const { createCanvas, loadImage } = require('canvas-prebuilt');
+const { createCanvas, loadImage } = require('canvas');
 
 const app = express();
 app.use(express.json({ limit: '10mb' }));
